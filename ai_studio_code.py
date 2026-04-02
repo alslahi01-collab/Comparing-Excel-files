@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import re
-from rapidfuzz import futz, process, utils
+from rapidfuzz import fuzz, process, utils
 import io
 
 # --- 1. وظائف تنظيف البيانات ---
